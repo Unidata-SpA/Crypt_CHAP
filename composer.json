@@ -1,0 +1,29 @@
+{
+    "name": "pear/crypt_chap",
+    "description": "Generating CHAP packets",
+    "type": "library",
+    "homepage": "http://pear.php.net/package/Crypt_CHAP",
+    "license": "BSD",
+    "authors": [
+        {
+            "email": "mbretter@php.net",
+            "name": "Michael Bretterklieber",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Crypt_CHAP": "./"
+        }
+    },
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Crypt_CHAP",
+        "source": "https://github.com/Unidata-SpA/Crypt_CHAP"
+    },
+    "require": {
+        "ext-mcrypt": "*",
+        "pear/pear-core-minimal": "^1.10.0"
+    },
+    "require-dev": {
+    }
+}
